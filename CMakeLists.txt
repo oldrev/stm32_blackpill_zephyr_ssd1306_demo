@@ -20,3 +20,4 @@ target_sources(app PRIVATE ${app_sources})
 
 set(gen_dir ${ZEPHYR_BINARY_DIR}/include/generated/)
 generate_cfb_font_for_target(app fonts/fsex302.ttf ${gen_dir}/cfb_font_fixedsys32.h 8 16 -s 16 --first 32 --last 126)
+generate_cfb_font_for_target(app fonts/JetBrainsMono-Bold.ttf ${gen_dir}/cfb_font_jetbrains_mono_bold.h 26 48 -s 40 --first 32 --last 126)

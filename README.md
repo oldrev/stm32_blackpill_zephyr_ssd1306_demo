@@ -30,3 +30,4 @@ west flash
 ## Credits
 
 * FixedSys Font: [https://github.com/kika/fixedsys](https://github.com/kika/fixedsys)
+* JetBrains Mono Font
