@@ -87,6 +87,6 @@ void main(void)
 		cfb_print(dev, buf, 0, 16);
 		cfb_framebuffer_finalize(dev);
 		i++;
-		k_sleep(K_MSEC(1000));
+		k_msleep(1000);
 	}
 }
